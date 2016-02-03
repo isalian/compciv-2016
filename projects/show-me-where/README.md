@@ -27,7 +27,7 @@ A __text string__ of the url of the feed.
 
 #### title
 
-A __text string__ representing the title of the field, e.g. 'USGS Magnitude 4.5+ Earthquakes, Past Month'
+A __text string__ representing the title of the field, e.g. `USGS Magnitude 4.5+ Earthquakes, Past Month`
 
 #### api
 
@@ -39,7 +39,7 @@ An __integer__ representing the number of earthquakes in the feed.
 
 #### status
 
-An __integer__ referring to the HTTP status code of response, e.g. '200'
+An __integer__ referring to the HTTP status code of response, e.g. `200`
 
 #### mag
 
@@ -59,7 +59,7 @@ Contains an __integer__ referring to the time when the individual event was most
 
 #### tz
 
-Contains an __integer__ representing the time difference from UTC in minutes at the earthquake's epicenter, e.g. '-360'
+Contains an __integer__ representing the time difference from UTC in minutes at the earthquake's epicenter, e.g. `-360`
 
 #### url
 
@@ -83,7 +83,7 @@ Contains a __float__ with the maxiumum estimated *instrumental* intensity of the
 
 #### alert
 
-Contains a __text string__ corresponding to the alert level based on the PAGER earthquake impact scale, e.g. 'green' or 'red' etc.
+Contains a __text string__ corresponding to the alert level based on the PAGER earthquake impact scale, e.g. `green` or `red` etc.
 
 #### status
 
@@ -91,7 +91,7 @@ Contains a __text string__ indicating whether the data has been reviewed by a pe
 
 #### tsunami
 
-Contains an __integer__: if the integer value is '1', it was a large event in an oceanic region. Otherwise, the value is '0'.
+Contains an __integer__: if the integer value is `1`, it was a large event in an oceanic region. Otherwise, the value is `0`.
 
 #### sig
 
@@ -159,4 +159,4 @@ Contains a __text string__ which is a unique identifier for the earthquake.
 
 ### Anticipated data wrangling
 
-Since the dataset is already filtered to contain only earthquakes over 4.5 magnitude for a fixed time period of 30 days, I will only have to extract the coordinates from the dataset, which consists of 1 dictonary per earthquake entry. The latitude and longitude are currently in a 'coordinates' field in a list. I may also extract the magnitude of the earthquake to include in the HTML report for the user.
+Since the dataset is already filtered to contain only earthquakes over 4.5 magnitude for a fixed time period of 30 days, I will only have to extract the coordinates from the dataset, which consists of 1 dictonary per earthquake entry. The latitude and longitude are currently in a `coordinates` field in a list. I may also extract the magnitude of the earthquake to include in the HTML report for the user.
