@@ -24,15 +24,10 @@ for jsonname in glob(join(RECOG_DIR, '*.json')):
     bnum = 0
     scores = img['scores']
     for entry in scores:
+        olist = []
         bnum +=1
         n = str(bnum) + ". "
-        x = entry['classifier_id'], "--", entry['score']
-        y = str(x)
-        htmlfile.write('\n' + n)
-        htmlfile.write(entry['classifier_id'])
-        htmlfile.write(" -- ")
-        htmlfile.write(str(entry['score']))
-
-
+        line = n + entry['classifier_id'] + " -- " + str(entry['score'])
+        htmlfile.write("<ol>%s</ol>" % line)
 
 htmlfile.close()
