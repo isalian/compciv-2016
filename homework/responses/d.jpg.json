@@ -1,0 +1,17 @@
+{"images":[
+	{"image":"d.jpg",
+	 "scores":[
+		 {"classifier_id":"Birthday_Party","name":"Birthday_Party","score":0.60645},
+		 {"classifier_id":"Indoors","name":"Indoors","score":0.596436},
+		 {"classifier_id":"Animal_Tending","name":"Animal_Tending","score":0.587114},
+		 {"classifier_id":"Food_or_Beverage","name":"Food_or_Beverage","score":0.568896},
+		 {"classifier_id":"Mammal","name":"Mammal","score":0.542888},
+		 {"classifier_id":"Industrial_Space","name":"Industrial_Space","score":0.537429},
+		 {"classifier_id":"Animal","name":"Animal","score":0.524819},
+		 {"classifier_id":"Yellow","name":"Yellow","score":0.521982},
+		 {"classifier_id":"Nursery","name":"Nursery","score":0.520651},
+		 {"classifier_id":"Rooster","name":"Rooster","score":0.516991},
+		 {"classifier_id":"Carrousel","name":"Carrousel","score":0.503311},
+		 {"classifier_id":"Repairing","name":"Repairing","score":0.502935},
+		 {"classifier_id":"Celebration","name":"Celebration","score":0.50169}]}]
+}

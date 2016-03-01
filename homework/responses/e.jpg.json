@@ -1,0 +1,13 @@
+{"images":[
+	{"image":"e.jpg",
+	 "scores":[
+		 {"classifier_id":"Snack_Food","name":"Snack_Food","score":0.656211},
+		 {"classifier_id":"Repairing","name":"Repairing","score":0.627789},
+		 {"classifier_id":"Brown","name":"Brown","score":0.582236},
+		 {"classifier_id":"Cake","name":"Cake","score":0.560684},
+		 {"classifier_id":"Food","name":"Food","score":0.553902},
+		 {"classifier_id":"Chips","name":"Chips","score":0.542365},
+		 {"classifier_id":"Gray","name":"Gray","score":0.533945},
+		 {"classifier_id":"Rock_Arch","name":"Rock_Arch","score":0.515707},
+		 {"classifier_id":"Birthday_Party","name":"Birthday_Party","score":0.514303}]}]
+}

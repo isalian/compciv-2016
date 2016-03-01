@@ -1,0 +1,13 @@
+{"images":[
+	{"image":"b.jpg",
+	 "scores":[
+		 {"classifier_id":"Food","name":"Food","score":0.734076},
+		 {"classifier_id":"Food_or_Beverage","name":"Food_or_Beverage","score":0.720096},
+		 {"classifier_id":"Snack_Food","name":"Snack_Food","score":0.685061},
+		 {"classifier_id":"Chips","name":"Chips","score":0.667859},
+		 {"classifier_id":"Nature_Scene","name":"Nature_Scene","score":0.605004},
+		 {"classifier_id":"Burning","name":"Burning","score":0.569167},
+		 {"classifier_id":"Boxing","name":"Boxing","score":0.510837},
+		 {"classifier_id":"Explosion","name":"Explosion","score":0.50324},
+		 {"classifier_id":"Wild_Fire","name":"Wild_Fire","score":0.503239}]}]
+}

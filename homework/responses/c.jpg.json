@@ -1,0 +1,9 @@
+{"images":[
+	{"image":"c.jpg",
+	 "scores":[
+		 {"classifier_id":"Food_or_Beverage","name":"Food_or_Beverage","score":0.753029},
+		 {"classifier_id":"Food","name":"Food","score":0.730518},
+		 {"classifier_id":"Snack_Food","name":"Snack_Food","score":0.643915},
+		 {"classifier_id":"Tacos","name":"Tacos","score":0.643134},
+		 {"classifier_id":"Flower_Scene","name":"Flower_Scene","score":0.582575}]}]
+}

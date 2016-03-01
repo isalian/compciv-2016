@@ -1,0 +1,16 @@
+{"images":[
+	{"image":"a.jpg",
+	 "scores":[
+		 {"classifier_id":"Noodles","name":"Noodles","score":0.630363},
+		 {"classifier_id":"Onion_Rings","name":"Onion_Rings","score":0.625603},
+		 {"classifier_id":"Snack_Food","name":"Snack_Food","score":0.618676},
+		 {"classifier_id":"Food","name":"Food","score":0.613453},
+		 {"classifier_id":"Animal_Tending","name":"Animal_Tending","score":0.611223},
+		 {"classifier_id":"Eating","name":"Eating","score":0.607931},
+		 {"classifier_id":"Natural_Activity","name":"Natural_Activity","score":0.579991},
+		 {"classifier_id":"Indoors","name":"Indoors","score":0.56201},
+		 {"classifier_id":"Burning","name":"Burning","score":0.55173},
+		 {"classifier_id":"Volcano","name":"Volcano","score":0.539463},
+		 {"classifier_id":"Brown","name":"Brown","score":0.537801},
+		 {"classifier_id":"Sky_Scene","name":"Sky_Scene","score":0.520896}]}]
+}
